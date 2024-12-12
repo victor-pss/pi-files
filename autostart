@@ -1,0 +1,10 @@
+@lxpanel --profile LXDE-pi
+@pcmanfm --desktop --profile LXDE-pi
+@xscreensaver -no-splash
+@unclutter -idle 0.01
+
+@xset s off
+@xset -dpms
+@xset s noblank
+
+@chromium-browser --noerrdialogs --disable-infobars --start-fullscreen --app=https://app.klipfolio.com/published/757a844c46fa68ffc963d1f64f184696/server-command-center
